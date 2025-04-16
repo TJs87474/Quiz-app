@@ -63,7 +63,7 @@ class _QuizScreenState extends State<QuizScreen> {
     return ElevatedButton(
       onPressed: _answered ? null : () => _submitAnswer(option),
       child: Text(option),
-      style: ElevatedButton.styleFrom(primary: Colors.blue),
+    style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
     );
   }
 
